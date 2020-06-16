@@ -19,7 +19,7 @@ p {
 
 /* Header */
 
-.header {
+header {
   padding: 20px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
@@ -27,18 +27,18 @@ p {
   color: #ffffff;
 }
 
-.header h1 {
+header h1 {
   display: inline-block;
   font-size: 48px;
 }
 
-.header h1 .seo {
+header h1 .seo {
   color: #d9dcd6;
 }
 
-/*   Navigation */
+/* Navigation */
 
-.header nav {
+header nav {
   padding-top: 15px;
   margin-right: 20px;
   float: right;
@@ -46,11 +46,11 @@ p {
   font-size: 20px;
 }
 
-.header nav ul {
+header nav ul {
   list-style-type: none;
 }
 
-.header nav ul li {
+header nav ul li {
   display: inline-block;
   margin-left: 25px;
 }
@@ -66,7 +66,7 @@ div.hero {
   background-position: center;
 }
 
-/*   Content Section */
+/* Content Section */
 
 section.content {
   width: 75%;
@@ -74,7 +74,7 @@ section.content {
   margin-left: 20px;
 }
 
-section.content div.content {
+section.content article.content {
   margin-bottom: 20px;
   padding: 50px;
   height: 300px;
@@ -83,26 +83,26 @@ section.content div.content {
   color: #ffffff;
 }
 
-section.content div.content img {
+section.content article.content img {
   max-height: 200px;
 }
 
-section.content div.content img.float-left {
+section.content article.content img.float-left {
   float: left;
   margin-right: 25px;
 }
 
-section.content div.content img.float-right {
+section.content article.content img.float-right {
   float: right;
   margin-left: 25px;
 }
 
-section.content div.content h2 {
+section.content article.content h2 {
   margin-bottom: 20px;
   font-size: 36px;
 }
 
-/*   Benefits Aside */
+/* Benefits Aside */
 
 aside.benefits {
   margin-right: 20px;
@@ -115,17 +115,18 @@ aside.benefits {
   background-color: #2589bd;
 }
 
-aside.benefits div.benefit {
+aside.benefits article.benefit {
   margin-bottom: 32px;
   color: #ffffff;
 }
 
-aside.benefits div.benefit h3 {
+aside.benefits article.benefit h2 {
+  font-size: 1.2rem;
   margin-bottom: 10px;
   text-align: center;
 }
 
-aside.benefits div.benefit img {
+aside.benefits article.benefit img {
   display: block;
   margin: 10px auto;
   max-width: 150px;
@@ -133,7 +134,7 @@ aside.benefits div.benefit img {
 
 /* Footer */
 
-.footer {
+footer {
   padding: 30px;
   clear: both;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
@@ -141,6 +142,6 @@ aside.benefits div.benefit img {
   text-align: center;
 }
 
-.footer h2 {
+footer h2 {
   font-size: 20px;
 }
