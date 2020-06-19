@@ -67,6 +67,7 @@ div.hero {
 div.hero img {
 	height: 800px;
 	width: 100%;
+	object-fit: cover;
 }
 
 /* Content Section - Horiseon Services */
